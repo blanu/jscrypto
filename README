@@ -1,0 +1,5 @@
+jscrypto is a library of pure Javscript crypto functions
+
+lib/ contains cleaned up versions of publicly available crypto functions
+api/ contains a simplified, high-level Javascript crypto API
+ui/ contains some interactive pages for playing with the crypto primitives

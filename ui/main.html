@@ -1,0 +1,28 @@
+      <div id="options">
+        <ul>
+          <li><a href="#read"><span>Read messages</span></a></li>
+          <li><a href="#send"><span>Send a message</span></a></li>
+        </ul>
+        <div id="read">
+          <h3>Messages</h3>
+          <form>
+            <input id="refreshSubmit" type="submit" value="Refresh"/>
+          </form>
+          <ul id="messages">
+          </ul>
+        </div>
+        <div id="send">
+          <span id="status">;;;</span>
+          <span class="form">
+            <form>
+              Username:
+              <input id="recipient" type="text"/><br/>
+              Message:
+              <textarea id="message"></textarea><br/>
+              <input id="sendSubmit" type="submit" value="Send"/>
+            </form>
+          </span>
+        </div>
+      </div>
+
+<script src="main.js" type="text/javascript"></script>
